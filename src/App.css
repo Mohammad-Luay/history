@@ -15,27 +15,30 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  height: 130vh;
 }
+
  .Navigation {
-   display: flex;
-   justify-content: center;
- }
- .NavigationChild {
   justify-content: space-between;
   color: cyan;
   font-family: "Century Gothic";
   font-size: 2.7rem;
-  text-align: center;
   font-weight: 500;
   line-height: 1.2;
   display: flex;
+  width: 70%;
+
+ }
+ .NavigationChild{
+  padding-left: 50px;
  }
 .App-link {
   color: #61dafb;
